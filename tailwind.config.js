@@ -5,7 +5,9 @@ export default {
   theme: {
     fontSize: {
       title: `1.6rem;`,
-      nav: `1.2rem;` 
+      nav: `1.2rem;`,
+      welcome: `1.9rem;`, 
+      subtext: `1rem`,
     },
     fontFamily: {
       'roboto': ['Roboto', 'sans-serif' ]
