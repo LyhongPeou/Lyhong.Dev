@@ -7,7 +7,7 @@ const MainPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-row flex-wrap justify-space mx-10 sm:gap-10  lg:gap-0">
+    <div className="flex flex-row flex-wrap mx-10 sm:gap-10 lg:gap-0 m-46">
       <div className="lg:w-2/5 sm:w-full flex flex-col  justify-center gap-5">
         <p className="font-semibold text-welcome">
           
@@ -30,7 +30,7 @@ const MainPage = () => {
         </p>
         
       </div>
-      <div className="sm:w-ful lg:w-3/5 flex justify-center">
+      <div className="sm:w-ful md:3/5 lg:w-3/5 flex p-auto justify-center">
         <img
           src={MainPagePicutre}
           alt="Home Page"
