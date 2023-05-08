@@ -4,6 +4,7 @@ import Root from "./Pages/Root";
 import ProjectPage from "./Components/Projects";
 import AboutPage from "./Pages/About";
 
+
 function App() {
   const routes = createBrowserRouter([
     {

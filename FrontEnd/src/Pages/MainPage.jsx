@@ -1,11 +1,17 @@
 import React, { useEffect } from "react";
 import MainPagePicutre from "../assets/HomePage.png";
 
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+
+
 const MainPage = () => {
   useEffect(() => {
     document.title = "Home";
   }, []);
 
+
+  console.log(process.env) 
+  
   return (
     <div className="flex flex-row flex-wrap mx-10 sm:gap-10 lg:gap-0 m-46">
       <div className="lg:w-2/5 sm:w-full flex flex-col  justify-center gap-5">
@@ -39,6 +45,9 @@ const MainPage = () => {
           className="rounded-full"
         />
       </div>
+
+ 
+
     </div>
   );
 };
