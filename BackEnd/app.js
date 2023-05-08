@@ -13,4 +13,6 @@ db.connect(() => {
     });
 });
 
+console.log(db.get());
+
 

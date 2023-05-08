@@ -6,7 +6,7 @@ let mongodb;
 
 function connect(callback) {
     mongoClient.connect(url, { useUnifiedTopology: true }, (err, db) => {
-        mongodb = db;
+        mongodb = db.collection('portfolio');
         callback();
     });
 }
@@ -24,6 +24,8 @@ module.exports = {
     get,
     close
 };
+
+
 
 
 

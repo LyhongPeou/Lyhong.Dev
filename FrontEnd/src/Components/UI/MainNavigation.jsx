@@ -8,9 +8,9 @@ const MainNavigation = () => {
       </Link> 
       <div className="flex gap-7 sm:gap-3 text-nav font-medium flex-wrap">
         <Link to = "" className="hover:underline"> Home </Link>
-        <Link to="/projects" className="hover:underline"> Project</Link>
+        <Link to="/classes" className="hover:underline"> Classes </Link>
+        <Link to="/projects" className="hover:underline"> Projects</Link>
         <Link to="/about" className="hover:underline"> About </Link>
-        <Link to="/about" className="hover:underline"> Contact </Link>
       </div>
     </div>
   );
