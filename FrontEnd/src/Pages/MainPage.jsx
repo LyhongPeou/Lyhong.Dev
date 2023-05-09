@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 
-import WelcomeSection from "../Components/UI/WelcomeSection";
+import WelcomeSection from "../Components/WelcomeSection";
+import ClassesSection from "../Components/ClassesSection";
 
 const MainPage = () => {
   useEffect(() => {
@@ -10,9 +11,10 @@ const MainPage = () => {
 
 
   return (
-    <>
+    <Fragment>
     <WelcomeSection/>
-    </>
+    <ClassesSection/>
+    </Fragment>
   
   );
 };

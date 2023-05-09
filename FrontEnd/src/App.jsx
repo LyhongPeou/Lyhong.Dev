@@ -3,7 +3,7 @@ import MainPage from "./Pages/MainPage";
 import Root from "./Pages/Root";
 import ProjectPage from "./Pages/Projects";
 import AboutPage from "./Pages/About";
-import ClassPage from "./Pages/Classes";
+
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
         { index: true, element: <MainPage /> },
         { path: "/projects", element: <ProjectPage /> },
         { path: "/about", element: <AboutPage /> },
-        { path: "/classes", element: <ClassPage />}
       ],
     },
   ]);
