@@ -1,0 +1,63 @@
+[
+  {
+    "course_code": "CS 162",
+    "course_title": "Introduction to Computer Science II",
+    "credits": 4,
+    "description": "Provides an overview of the fundamental concepts of computer science. Studies basic data structures, computer programming techniques and application of software engineering principles. Introduces analysis of programs."
+  },
+  {
+    "course_code": "CS 261",
+    "course_title": "Data Structures",
+    "credits": 4,
+    "description": "Studies abstract data types and their implementation using a high-level programming language. Includes lists, stacks, queues, trees, and graphs. Emphasizes sound approaches to program development and program verification."
+  },
+  {
+    "course_code": "CS 271",
+    "course_title": "Computer Architecture and Assembly Language",
+    "credits": 4,
+    "description": "Introduces basic computer organization, machine language, and assembly language. Covers digital representation of data, Boolean algebra, combinational and sequential logic, computer organization, instruction sets, and assembly language. Includes laboratory."
+  },
+  {
+    "course_code": "CS 290",
+    "course_title": "Web Development",
+    "credits": 4,
+    "description": "Introduces World Wide Web concepts, markup languages, and web site development tools. Includes creating web pages, enhancing sites with multimedia, and using popular web development software tools. Covers social, ethical, and security issues surrounding the World Wide Web."
+  },
+  {
+    "course_code": "CS 325",
+    "course_title": "Analysis of Algorithms",
+    "credits": 4,
+    "description": "Studies techniques for analyzing the efficiency of algorithms, including asymptotic analysis; techniques for designing efficient algorithms, including greedy algorithms, divide-and-conquer, dynamic programming, and graph algorithms; and NP-completeness."
+  },
+  {
+    "course_code": "CS 340",
+    "course_title": "Introduction to Databases",
+    "credits": 4,
+    "description": "Introduces database management systems and writing applications that use such systems; data models, query languages, database design, concurrency control, recovery, security, and integrity."
+  },
+  {
+    "course_code": "CS 344",
+    "course_title": "Operating Systems I",
+    "credits": 4,
+    "description": "Introduces operating systems and system programming. Covers process management, interprocess communication, memory management, virtual memory, file systems, and protection and security. Includes programming assignments."
+  },
+  {
+    "course_code": "CS 352",
+    "course_title": "Introduction to Usability Engineering",
+    "credits": 4,
+    "description": "Introduces the principles of usability engineering."
+  },
+
+  {
+    "course_code": "CS 372",
+    "course_title": "Introduction to Computer Networks",
+    "credits": 4,
+    "description": "Computer network principles, fundamental networking concepts, packet-switching and circuit switching, TCP/IP protocol layers, reliable data transfer, congestion control, flow control, packet forwarding and routing, MAC addressing, multiple access techniques"
+  },
+  {
+    "course_code": "CS 494",
+    "course_title": "Advanced Web Development",
+    "credits": 4,
+    "description": "Explores advanced concepts and techniques for developing client-side web applications. Emphasizes modern application design using contemporary tools and technologies such as component-based UI frameworks."
+  }
+]

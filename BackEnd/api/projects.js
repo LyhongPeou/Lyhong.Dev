@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
         console.log(err);
     })
 
-    console.log(projects);
+    
     res.send({
         projects: projects
     })
