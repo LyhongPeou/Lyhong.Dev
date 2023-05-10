@@ -13,8 +13,8 @@ router.get("/", async (req, res) => {
         console.log(err);
     })
 
-    console.log(Classes);
-    res.send({
+    
+    res.status(200).send({
         Classes: Classes
     })
 })

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const MainNavigation = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-between content-center items-center m-10 font-semibold text-title font-roboto md:mx-52 2xl:mx-96 2xl:pl-44">
+    <div className="flex flex-row flex-wrap justify-between content-center items-center m-10 font-semibold text-title font-roboto md:mx-52 2xl:mx-96">
       <Link to="/">
         Lyhong.Dev
       </Link> 

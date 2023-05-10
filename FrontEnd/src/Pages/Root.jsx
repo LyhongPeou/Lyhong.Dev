@@ -5,9 +5,9 @@ const RootPage = () => {
   return (
     <>
       <NavBar/>
-      <div>
+      <>
         <Outlet />
-      </div>
+      </>
     </>
   );
 };

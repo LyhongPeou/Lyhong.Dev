@@ -1,7 +1,10 @@
 require('dotenv').config()
-const url = `mongodb+srv://${process.env.MONGO_NAME}:${process.env.MONGO_PASS}@portfolio.0caquhu.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`;
+
+
 
 const mongoUrl = `mongodb+srv://${process.env.MONGO_NAME}:${process.env.MONGO_PASS}@portfolio.0caquhu.mongodb.net/${process.env.MONGO_DB}`
+
+
 
 const mongoClient = require('mongodb').MongoClient;
 
@@ -18,6 +21,7 @@ function connect(callback) {
     );
 
 }
+
 
 function get() {
     return mongodb;
