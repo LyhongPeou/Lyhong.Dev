@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from "react";
 
 import WelcomeSection from "../Components/WelcomeSection";
 import ClassesSection from "../Components/ClassesSection";
+import { ScrollContainer } from "react-scroll-motion";
 
 const MainPage = () => {
   useEffect(() => {
@@ -11,10 +12,10 @@ const MainPage = () => {
 
 
   return (
-    <Fragment>
-    <WelcomeSection/>
-    <ClassesSection/>
-    </Fragment>
+    <ScrollContainer>
+   <WelcomeSection/>
+   <ClassesSection/>
+    </ScrollContainer>
   
   );
 };
