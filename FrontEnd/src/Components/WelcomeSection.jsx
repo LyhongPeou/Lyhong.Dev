@@ -1,40 +1,32 @@
 import Container from "react-bootstrap/esm/Container";
-import MainPagePicutre from "../assets/HomePage.png";
-import Image from "react-bootstrap/Image";
+import classes  from "./WelcomeSection.module.css"
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const WelcomeSection = () => {
   return (
-    <Container className="d-flex flex-column justify-content-center "  style={{ height: '90vh', gap: "5rem"  }}>
+    <Container className="d-flex flex-column justify-content-center"  style={{ height: '90vh', gap: "5rem"  }}>
       
-        <div >
-          <h1 className="text-center my-5">
-            Digital Innovations: Lyhong Peou's Tech Portfolio
-          </h1>
-          <div className="d-flex justify-content-center">
-            <Image
-              src={MainPagePicutre}
-              width="35%"
-              alt="Home Page"
-              roundedCircle
-            />
-          </div>
+      <div className="d-flex flex-column align-items-start" >
+        
+        <div>
+          <h1 className={classes.title_welcome}> Hello I am<br/></h1>
+          <h1 className={classes.title_dev}>Lyhong <br/> Peou</h1>
         </div>
-        <div >
-          <p className="text-justify">
-            Hello and welcome to Lyhong's Tech Portfolio! Here, you can look at
-            many interesting projects that Lyhong has worked on thanks to computer
-            science classes and real-world practice. You'll see examples of
-            website building, computer programs, and working with data. Have fun
-            exploring this digital collection and see how learning and doing can
-            create great things in technology!{" "}
+        
+          
+        
+        <div>
+          <p className={classes.subtitle_welcome}>
+           An aspiring full-stack web developer with a passion for learning and creating. <br/>
+           In this website, you will find my projects and my resume. <br/>
           </p>
-          <p className="text-justify">
-            You'll see examples of website building, computer programs, and
-            working with data. Have fun exploring this digital collection and see
-            how learning and doing can create great things in technology!{" "}
-          </p>
+
         </div>
-      
+        
+      </div>
+        
+        
     </Container>
   );
 };
