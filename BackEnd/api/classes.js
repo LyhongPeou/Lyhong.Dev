@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
     const collection = db.collection('Classes');
     
 
-    const Classes = await collection.find({}).toArray().catch((err) => {
+    const Classes = await collection.find({notable: true}).toArray().catch((err) => {
         console.log(err);
     })
 

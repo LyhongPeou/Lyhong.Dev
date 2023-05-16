@@ -10,7 +10,7 @@ const ProjectPage = () => {
     return(
 
         
-        <div className="flex m-10">
+        <div className="">
             <h2> Project Page </h2>
         
         </div>

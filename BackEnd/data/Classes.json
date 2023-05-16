@@ -21,7 +21,8 @@
     "course_code": "CS 290",
     "course_title": "Web Development",
     "credits": 4,
-    "description": "Introduces World Wide Web concepts, markup languages, and web site development tools. Includes creating web pages, enhancing sites with multimedia, and using popular web development software tools. Covers social, ethical, and security issues surrounding the World Wide Web."
+    "description": "Introduces World Wide Web concepts, markup languages, and web site development tools. Includes creating web pages, enhancing sites with multimedia, and using popular web development software tools. Covers social, ethical, and security issues surrounding the World Wide Web.",
+    "notable": true
   },
   {
     "course_code": "CS 325",
@@ -33,7 +34,8 @@
     "course_code": "CS 340",
     "course_title": "Introduction to Databases",
     "credits": 4,
-    "description": "Introduces database management systems and writing applications that use such systems; data models, query languages, database design, concurrency control, recovery, security, and integrity."
+    "description": "Introduces database management systems and writing applications that use such systems; data models, query languages, database design, concurrency control, recovery, security, and integrity.",
+    "notable": true
   },
   {
     "course_code": "CS 344",
@@ -45,7 +47,8 @@
     "course_code": "CS 352",
     "course_title": "Introduction to Usability Engineering",
     "credits": 4,
-    "description": "Introduces the principles of usability engineering."
+    "description": "Introduces the principles of usability engineering.",
+    "notable": true
   },
 
   {
@@ -58,6 +61,7 @@
     "course_code": "CS 494",
     "course_title": "Advanced Web Development",
     "credits": 4,
-    "description": "Explores advanced concepts and techniques for developing client-side web applications. Emphasizes modern application design using contemporary tools and technologies such as component-based UI frameworks."
+    "description": "Explores advanced concepts and techniques for developing client-side web applications. Emphasizes modern application design using contemporary tools and technologies such as component-based UI frameworks.",
+    "notable": true
   }
 ]

@@ -6,7 +6,7 @@ const AboutPage = () => {
   }, []);
 
   return (
-    <div className="flex m-10">
+    <div className="">
       <h1>About Page</h1>
     </div>
   );

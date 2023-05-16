@@ -4,7 +4,7 @@ import Root from "./Pages/Root";
 import ProjectPage from "./Pages/Projects";
 import AboutPage from "./Pages/About";
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const routes = createBrowserRouter([

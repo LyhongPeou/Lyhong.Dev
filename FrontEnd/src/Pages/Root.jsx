@@ -5,8 +5,10 @@ const RootPage = () => {
   return (
     <>
       <NavBar/>
+      
+       
       <>
-        <Outlet />
+      <Outlet />
       </>
     </>
   );
