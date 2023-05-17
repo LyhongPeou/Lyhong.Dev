@@ -1,7 +1,11 @@
 import React, { Fragment, useEffect } from "react";
 
+import NavBar from "../Components/UI/MainNavigation";
+
 import WelcomeSection from "../Components/WelcomeSection";
-import Container from "react-bootstrap/esm/Container";
+import ClassesSection from "../Components/ClassesSection";
+import Classes from "./MainPage.module.css";
+import SkillSection from "../Components/SkillSection";
 
 const MainPage = () => {
   useEffect(() => {
@@ -9,9 +13,13 @@ const MainPage = () => {
   }, []);
 
   return (
-    <Container  >
-      <WelcomeSection />
-    </Container>
+    <div className={Classes.container} >
+
+        <WelcomeSection />
+        <SkillSection/>
+       <ClassesSection />
+      
+    </div>
   );
 };
 
