@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
-function useClassSearch() {
-  const [classes, setClasses] = useState([]);
+function useSkillSearch() {
+  const [skills, setSkills] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
@@ -9,12 +9,12 @@ function useClassSearch() {
     let ignore = false;
     const controller = new AbortController();
 
-    async function fetchClasses() {
+    async function fetchSkills() {
       setLoading(true);
       let body = {};
 
       try {
-        const response = await fetch("http://127.0.0.1:3000/classes", {
+        const response = await fetch("http://127.0.0.1:3000/skills", {
           method: "GET",
           signal: controller.signal,
         });
@@ -37,12 +37,12 @@ function useClassSearch() {
       }
 
       if (!ignore) {
-        setClasses(body.Classes || []);
+        setSkills(body.skills || []);
         setLoading(false);
       }
     }
 
-    fetchClasses();
+    fetchSkills();
 
     return () => {
       ignore = true;
@@ -50,8 +50,7 @@ function useClassSearch() {
     };
   }, []);
 
-  return [classes, loading, error];
+  return [skills, loading, error];
 }
 
-export default useClassSearch;
-
+export default useSkillSearch;

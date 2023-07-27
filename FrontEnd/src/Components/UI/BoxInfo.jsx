@@ -1,18 +1,21 @@
 import React from 'react';
+import Card from "react-bootstrap/Card";
 
 const ClassInfoBox = (props) => {
 
   const { course_code, course_title, credits, description } = props.class;
   return (
-    <div >
-      <div >
-        <h2 >{course_code}</h2>
-        <h1 >Oregon State University</h1>
-      </div>
-      <h3 >{course_title}</h3>
-      <p >Credits: {credits}</p>
-      <p >{description}</p>
-    </div>
+    <Card style={{width: '18rem ', color: 'black'}}>
+      <Card.Header>{course_title}</Card.Header>
+      <Card.Body>
+        
+        <Card.Subtitle className="mb-2 text-muted">
+          Course Code:{course_code}
+        </Card.Subtitle>
+        <Card.Text>Credit: {credits}</Card.Text>
+      </Card.Body>
+    </Card>
+
   );
 };
 
