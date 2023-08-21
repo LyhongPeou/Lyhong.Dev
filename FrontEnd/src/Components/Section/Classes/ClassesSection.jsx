@@ -1,5 +1,5 @@
-import useClassSearch from "../hooks/useClassSearch";
-import ClassInfoBox from "./UI/BoxInfo";
+import useClassSearch from "../../../hooks/useClassSearch";
+import ClassInfoBox from "./ClassesBoxInfo";
 import Container from "react-bootstrap/esm/Container";
 import Class from "./ClassesSection.module.css";
 

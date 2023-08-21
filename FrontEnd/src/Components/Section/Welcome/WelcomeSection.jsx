@@ -1,8 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import Classes  from "./WelcomeSection.module.css"
-import NavBar from "./UI/MainNavigation";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import NavBar from "../../Navi/MainNavigation";
+
 
 
 const WelcomeSection = () => {

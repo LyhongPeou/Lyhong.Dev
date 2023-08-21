@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect } from "react";
 
-import NavBar from "../Components/UI/MainNavigation";
 
-import WelcomeSection from "../Components/WelcomeSection";
-import ClassesSection from "../Components/ClassesSection";
+
+import WelcomeSection from "../Components/Section/Welcome/WelcomeSection";
+import ClassesSection from "../Components/Section/Classes/ClassesSection";
 import Classes from "./MainPage.module.css";
-import SkillSection from "../Components/SkillSection";
+import SkillSection from "../Components/Section/Skill/SkillSection";
 
 const MainPage = () => {
   useEffect(() => {

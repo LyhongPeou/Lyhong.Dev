@@ -1,7 +1,8 @@
 require('dotenv').config()
 
 
-const text = "mongodb+srv://<username>:<password>@portfolio.0caquhu.mongodb.net/?retryWrites=true&w=majority"
+
+const text = "mongodb+srv://<username>:<password>@portfolio.0caquhu.mongodb.net/"
 
 const mongoUrl = `mongodb+srv://${process.env.MONGO_NAME}:${process.env.MONGO_PASS}@portfolio.0caquhu.mongodb.net/${process.env.MONGO_DB}`
 
